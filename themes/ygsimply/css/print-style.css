@@ -1,0 +1,218 @@
+@font-face{
+    font-family: "CFont";
+    src: url("../fonts/Ubuntu-R.ttf");
+}
+@font-face {
+    font-family: "CFont";
+    src: url("../fonts/Ubuntu-B.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "CFont";
+    src: url("../fonts/Ubuntu-RI.ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "CFont";
+    src: url("../fonts/Ubuntu-BI.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+body{
+    font-family: "CFont";
+    font-size: 7pt;
+    line-height: 1.6em;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 9pt;
+    color: #000;
+    margin: 0 !important;
+}
+
+.title2{
+    font-size: 9pt !important;
+}
+
+.divider{
+    border-bottom:solid 1px #d3d3d3;
+}
+
+table{
+    width: 100%;
+    border: none;
+}
+
+table td{
+    vertical-align: text-top;
+}
+.center{
+    text-align: center;
+}
+
+.tabelList{
+    margin-top: 10px;
+}
+
+.tabelList th{
+    background: #eee;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    padding: 5px;
+}
+.tabelList td{
+    padding: 5px;
+}
+
+.tabelList2 th{
+    background: #eee;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    padding: 5px;
+}
+.tabelList2 td{
+    padding: 5px;
+    border-bottom: dashed 1px #ccc;
+    font-size: 7pt;
+}
+
+.tabelList3 th{
+    background: #eee;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    padding: 5px;
+}
+.tabelList3 td{
+    padding: 5px;
+    border-bottom: dashed 1px #ccc;
+    font-size: 6pt;
+}
+
+.noBorder td{
+    border: none !important;
+    font-size: 7pt;
+}
+
+.noBorder{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.border-bottom{
+    border-bottom: dashed 1px #ccc;
+}
+.border-bottom2{
+    border-bottom: solid 1px #ccc !important;
+}
+.asignment{
+    margin-top: 0px;
+}
+.underline{
+    text-decoration: underline;
+}
+.underline{
+    text-decoration: underline;
+}
+.laporanTitle{
+    text-align: center;
+    margin: 10px 0 20px;
+    padding-top: 20px;
+    border-top: solid 1px #ccc;
+}
+.bottom{
+    vertical-align: bottom !important;
+}
+.smallfont th{
+    font-size: 9px;
+}
+.biggerfont td{
+    font-size: 11px;
+}
+.noborder{border: none !important;}
+.report-table{
+    margin-top: 20px; margin-bottom: 20px; border-collapse: collapse;
+    border: solid 1px #ccc; font-size: 7pt !important;}
+.report-table th{
+    background: #eee;
+    color: #000;
+    padding: 3px 5px;
+    border: none;
+    font-weight: bold;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    padding-left:10px;
+    text-align: left !important;
+    font-size: 7pt !important;
+}
+.report-table td{
+    background: #fff;
+    color: #000;
+    padding: 3px 5px;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    padding-left:10px;
+    font-size: 7pt !important;
+}
+.report-table td.deep1{
+    padding-left:20px;
+}
+.report-table td.deep2{
+    padding-left:30px;
+}
+.report-table td.saldo{
+    width: 100px;
+    text-align: right;
+}
+.report-table tr:hover td{
+    background: #eee;
+}
+.report-table tr td.spacer{
+    background: #eee;
+    height: 5px !important;
+    padding: 0 !important;
+}
+
+.tabelList6.border-solid{
+    border-collapse: collapse;
+}
+
+.tabelList6.border-solid tr td,.tabelList6.border-solid tr th{
+    border-collapse: collapse;
+}
+
+.tabelList6 th{
+    background: #eee;
+    padding: 5px 5px;
+    font-size: 9px;
+}
+
+.tabelList6 td{
+    padding: 5px 5px;
+    font-size: 9px;
+}
+
+.tabel-neraca td{
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.tabelList8.border-solid{
+    border-collapse: collapse;
+}
+
+.tabelList8.border-solid > tbody > tr > td,.tabelList8.border-solid > thead > tr > th{
+    border: 1px solid #999;
+    border-collapse: collapse;
+}
+
+.border-left{
+    border-left: 1px solid #999;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #999;
+}

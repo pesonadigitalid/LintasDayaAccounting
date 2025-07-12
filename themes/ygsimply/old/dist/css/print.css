@@ -1,0 +1,161 @@
+@font-face{
+    font-family: "Source Sans Pro";
+    src: url("../font/SourceSansPro-Regular.otf");
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../font/SourceSansPro-Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../font/SourceSansPro-It.otf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../font/SourceSansPro-BoldIt.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+/*!
+ *   AdminLTE v2.3.0
+ *   Author: Almsaeed Studio
+ *	 Website: Almsaeed Studio <http://almsaeedstudio.com>
+ *   License: Open source - MIT
+ *           Please visit http://opensource.org/licenses/MIT for more information
+!*/
+/*
+ * Core: General Layout Style
+ * -------------------------
+ */
+html,
+body {
+  min-height: 100%;
+}
+.layout-boxed html,
+.layout-boxed body {
+  height: 100%;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: 11px !important;
+  line-height: 1.2em;
+}
+
+.printContainer{
+    width: 100%;
+    margin: 0;
+    padding: 10px 15px 20px;
+    color: #333;
+}
+
+.styleH1{
+    margin: 5px 0 !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    text-decoration: underline !important;
+    text-transform: uppercase;
+}
+
+.title{
+    font-size: 16px !important;
+}
+
+table{
+    font-size: 11px !important;
+}
+
+#table_print tr td{
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+}
+
+.table td, .table th, .table{
+    padding: 2px 5px !important;
+    vertical-align:  middle !important;
+    
+}
+
+.headTable td{
+    padding: 2px 0;
+}
+    
+.discard{
+    font-weight: bold;
+    color: red;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.kartu-container{
+    font-size: 13px;
+    width: 300px;
+    height: 150px;
+    border: solid 1px #666;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+    .box-header{
+        height: 1.3cm;
+    }
+    
+    .box-body{
+        padding-top: 0.5cm;
+        font-weight: bold;
+        color: #2c3500;
+        font-size: 13px;
+    }
+    
+    .box-body p.nama{
+        margin: 0 0 5px 0;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+    
+    .box-body p.noidentitas{
+        font-size: 14px !important;
+        margin: 0;
+    }
+    
+    .box-footer{
+        font-size: 10px;
+        padding: 5px;
+        height: 1.3cm;
+        margin-top: -30px;
+    }
+    
+        .tanggal{
+            font-size: 9px;
+            float: left;
+            margin: 0;
+            padding: 22px 0 0 0;
+            width: 4cm;
+            height: 1.3cm;
+        }
+        
+        .infoCompany{
+            margin: 0;
+            padding-top: 5px;
+            height: 1.3cm;
+        }
+    
+            .infoCompany h3{
+                font-size: 10px;
+                font-weight: bold;
+                margin: 0;
+            }
+            
+            .infoCompany p{
+                font-size: 10px;
+                margin: 0;
+            }
