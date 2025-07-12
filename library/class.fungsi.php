@@ -481,7 +481,6 @@ class Fungsi
             ($rek_posisi == 'Debet' && $kode_rek == '1-1126') ||
             ($rek_posisi == 'Debet' && $kode_rek == '1-1127') ||
             ($rek_posisi == 'Debet' && $kode_rek == '1-1128') ||
-            ($rek_posisi == 'Debet' && $kode_rek == '1-1137') ||
             ($rek_posisi == 'Debet' && substr($kode_rek, 0, 4) == '1-12') ||
             ($rek_posisi == 'Debet' && substr($kode_rek, 0, 2) == '5-') ||
             ($rek_posisi == 'Debet' && substr($kode_rek, 0, 2) == '6-') ||
@@ -569,6 +568,7 @@ class Fungsi
             ($rek_posisi == 'Debet' && $kode_rek == '1-1126') ||
             ($rek_posisi == 'Debet' && $kode_rek == '1-1127') ||
             ($rek_posisi == 'Debet' && $kode_rek == '1-1128') ||
+            ($rek_posisi == 'Debet' && $kode_rek == '1-1137') ||
             ($rek_posisi == 'Debet' && substr($kode_rek, 0, 5) == '1-111') ||
             ($rek_posisi == 'Debet' && substr($kode_rek, 0, 2) == '5-') ||
             ($rek_posisi == 'Debet' && substr($kode_rek, 0, 2) == '6-') ||
